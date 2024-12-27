@@ -59,7 +59,7 @@ const VideoCarousel = () => {
     ((pre) => [...pre, e] )
 
     useEffect(() =>{
-        const currentProgress = 0;
+        let currentProgress = 0;
          let span = videoSpanRef.current;
 
          if(span[videoId]){
